@@ -1,70 +1,51 @@
-# SC Tuning - Forza Motorsport 7 Telemetry Tooling
+# SC Tuning Core Public - Forza Motorsport 7 Telemetry Tooling
 
-Welcome to **SC Tuning** — a repository of open-source tools, documentation, and ideas for interacting with Forza Motorsport 7 telemetry. 
+Welcome to **SC Tuning Core Public** — the open lab of SC Tuning.
 
-This repo shares components, concepts, and cleaned-up experiments that support our work in **telemetry-based vehicle tuning**, **data analysis**, and **automation frameworks** used in Forza Motorsport 7 and beyond.
+This repository contains open-source tools, telemetry scripts, and architectural insights from the SC Tuning Core system. It is a **developer-focused space** to share, study, and collaborate on data-driven vehicle tuning strategies, especially for Forza Motorsport 7 and related projects.
 
-> This is not the main SC Tuning engine. That system is private and powers our core service.
-> Instead, this space is for sharing what can help the community, honor GPLv3 contributions, and give back.
-
----
-
-## 🏠 About SC Tuning
-
-**SC Tuning** is a project focused on advanced telemetry-driven vehicle tuning.
-We use structured data pipelines, modular metric extractors, and machine-assisted optimization to fine-tune cars for maximum grip, agility, and competitive responsiveness.
-
-Our work spans:
-- Telemetry capture and preprocessing
-- Time-to-speed, G-force, acceleration metrics
-- Modular analysis tools (Go, Python)
-- Auto-comparison and tuning suggestion workflows
+> ⚡ This is **not the final product or service interface.** If you're looking for tuning calculators, curated packs, or community-facing experiences, visit [SC Tuning Pro](https://github.com/sc-tuning-pro).
 
 ---
 
-## 🔗 What's in This Repo
+## 🏠 Purpose
 
-- `examples/` — Sample tuning pipelines, test data, and sandbox code
-- `metrics/` — Open-source versions of performance metric extractors
-- `docs/` — Architectural concepts, public tuning insights, and system diagrams
-- `LICENSE` — MIT License for original work; GPLv3 for any incorporated public code
+This repository exists to:
+- Share sanitized components of our internal SC Tuning Core system
+- Release metric extractors and analysis tools for public learning and collaboration
+- Document our tuning architecture, principles, and data formats
 
-We will continue to expand this repo over time with sanitized, public-safe versions of tools and ideas we think will benefit the broader tuning and data science community.
-
----
-
-## 🏆 Attribution + Credit
-
-We proudly build upon and contribute to the open-source community.
-When incorporating others' work (e.g., GPLv3 code), we provide full attribution and license clarity.
-
-You are welcome to use anything here under the included license terms. If you enhance or extend anything, please consider contributing it back!
+We use Go, Python, and structured telemetry data to derive high-performance builds and tuning heuristics.
 
 ---
 
-## 🙏 Thanks & Support
+## 🔗 What's Inside
 
-We’re a small, independent group experimenting with high-performance tuning, machine learning, and human-assisted telemetry workflows.
-If something here helps you, drop us a message or tag us.
+- `examples/` — Sample pipelines, telemetry transformations, and working test cases
+- `metrics/` — Modular extractors for G-force, speed ramps, acceleration windows, etc.
+- `docs/` — Diagrams, workflow maps, and philosophical notes on tuning systems
 
-We may also be publishing more through our main project:
-**[SC Tuning Pro](https://github.com/sc-tuning-pro)**
-
----
-
-## License
-
-This project uses a multi-tiered license structure:
-
-- Original source code, scripts, and tools are licensed under the [MIT License](./LICENSE).
-- Any components derived from GPLv3-licensed software retain the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html) and are marked in-file.
-- All documentation, diagrams, and written guides are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), unless otherwise noted.
-
-Please review the [LICENSE](./LICENSE) file for full terms.
-
-Let’s build cool things.
+All content here is intended to help others learn, adapt, and build their own analysis stack.
 
 ---
 
-#sc-tuning #telemetry #racingdata #open-tuning #forzamotorsport #opensource
+## 🔍 When to Use This Repo
 
+Use **sc-tuning-core-public** if you want to:
+- Study telemetry transformation logic
+- Contribute new analysis tooling or metric models
+- Understand how our internal Core system works (without accessing private internals)
+
+---
+
+## 🙏 Attribution & License
+
+- Code: MIT License (see [LICENSE](./LICENSE))
+- GPLv3-licensed derivatives: Noted in-file where applicable
+- Documentation & diagrams: CC BY 4.0
+
+Contributions welcome.
+
+---
+
+#sc-tuning #opensource #telemetry #forza #tuning #racingdata
