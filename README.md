@@ -54,9 +54,11 @@ We may also be publishing more through our main project:
 
 ## License
 
-- Original software, examples, and tools in this repository are licensed under the [MIT License](./LICENSE).
-- Any files adapted from external GPLv3-licensed sources retain the GPLv3 license and are clearly marked within the file headers.
-- Documentation, diagrams, and written guides are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), unless otherwise noted.
+This project uses a multi-tiered license structure:
+
+- Original source code, scripts, and tools are licensed under the [MIT License](./LICENSE).
+- Any components derived from GPLv3-licensed software retain the [GPLv3 license](https://www.gnu.org/licenses/gpl-3.0.en.html) and are marked in-file.
+- All documentation, diagrams, and written guides are licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), unless otherwise noted.
 
 Please review the [LICENSE](./LICENSE) file for full terms.
 
