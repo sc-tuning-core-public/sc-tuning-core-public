@@ -1,6 +1,6 @@
-# SC Tuning Core Public - Forza Motorsport 7 Telemetry Tooling
+# SC Tuning - Forza Motorsport 7 Telemetry Tooling
 
-Welcome to **SC Tuning Core Public** — a repository of open-source tools, documentation, and ideas for interacting with Forza Motorsport 7 telemetry. 
+Welcome to **SC Tuning** — a repository of open-source tools, documentation, and ideas for interacting with Forza Motorsport 7 telemetry. 
 
 This repo shares components, concepts, and cleaned-up experiments that support our work in **telemetry-based vehicle tuning**, **data analysis**, and **automation frameworks** used in Forza Motorsport 7 and beyond.
 
